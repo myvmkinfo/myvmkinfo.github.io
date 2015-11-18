@@ -1,0 +1,465 @@
+/* 
+	MyVMK Information
+	Author: Marker (KrazyKid)
+	Date: 10/21/15
+	Style: Main
+*/
+
+/* Body Styles */
+
+body {
+	background-color: #f3f3f3;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0px;
+}
+
+body section p {
+	padding-left: 1em;
+	font-size: 22.5px;
+}
+
+body h1 {
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+
+hr {
+	clear: left;
+	margin: 8px;
+	border-width: 1px;
+}
+/* Header Styles */
+
+header {
+	display: block;
+	text-align: center;
+	border-bottom: 1.75px solid #333333;
+	background-image: url("images/castle.png");
+	background-repeat: no-repeat;
+	padding-top: 3em;
+	padding-right: 1em;
+	background-position: center;
+
+}
+
+/* Aside Styles
+
+aside {
+	
+}
+
+aside a {
+	
+}
+
+aside a:hover {
+	
+}
+*/
+/* Navigation Styles */
+
+nav ul {
+	background-color: rgb(46, 92, 184);
+	box-shadow: 0px 2px 2px rgb(40, 84, 164);
+	line-height: 3.5em;
+	margin: auto;
+	list-style-type: none;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+nav ul li:hover {
+	color: rgba(40, 84, 164, 0.4);
+	background-color: rgb(38, 80, 160);
+}
+
+nav ul li a {
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+#navlist li {
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	display: inline;
+	font-size: 20px;
+}
+
+/* AdminHosts Styles */
+
+#adminhosts h2 {
+	text-decoration: underline;
+}
+
+/* ModForums Styles */
+
+#modforums h2 {
+	text-decoration: underline;
+}
+
+/* Intro Styles */
+
+#intro {
+	width: 60%;
+	background-color: rgba(220, 220, 220, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	padding-top: 1.5px;
+	padding-bottom: 0.5px;
+	margin: 10px 10px 10px;
+	float: left;
+	text-align: center;
+}
+
+#intro h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+#intro p {
+	padding-left: 5em;
+	padding-right: 5em;
+	text-align: justify;
+}
+
+#intro img {
+	text-align: center;
+	box-shadow: 3px 3px 3px rgb(200, 200, 200);
+	border-style: solid;
+	border-width: 1px;
+}
+
+#intro a {
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+#intro a:hover {
+	text-decoration: underline;
+}
+
+#intro #name {
+	text-align: right;
+	font-style: italic;
+}
+
+/* Links Styles */
+
+#links {
+	width: 33%;
+	float: left;
+	margin: 10px 10px 10px;
+	background-color: rgba(220, 220, 220, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	
+}
+
+#links h2 {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(46, 92, 184, 0.95);
+	box-shadow: 0px 6.5px 0px rgb(40, 84, 164);
+}
+
+#links p {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+#links p a {
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#links p a:hover {
+	font-weight: bold;
+	
+}
+
+/* Minigames Styles */
+
+#minigames {
+	text-align: center;
+	width: 100%;
+}
+
+#minigames p {
+	font-size: 90%;
+}
+
+#minigames #list {
+	text-align: justify;
+	text-decoration: none;
+	width: 60%;
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 25px;
+	border-color: rgba(38, 80, 160, 0.5);
+	box-shadow: 3px 3px 3px rgb(200, 200, 200);
+	padding-right: 20px;
+	background-color: rgba(46, 92, 184, 0.4);
+	color: rgba(0, 0, 0, 0.9);
+}
+
+#minigames #list ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+#minigames #list ul li a:hover {
+	text-decoration: underline;
+}
+
+#minigames #fireworks {
+	float: left;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+}
+
+#minigames #fireworks img {
+	box-shadow: 3px 3px 3px rgb(200, 200, 200);
+	border-style: solid;
+	border-width: 1px;
+}
+
+#minigames #fireworks strong {
+	color: rgba(0, 0, 0, 0);
+}
+
+#minigames #fireworks strong:hover {
+	color: rgba(0, 0, 0, 1);
+}
+
+/*#minigames #classic {
+	float: left;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	width: 50%;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+} */
+
+#minigames #classic img {
+	box-shadow: 3px 3px 3px rgb(200, 200, 200);
+	border-style: solid;
+	border-width: 1px;
+}
+
+#minigames #cruise {
+	float: right;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+}
+
+#minigames #cruise img {
+	box-shadow: 3px 3px 3px rgb(200, 200, 200);
+	border-style: solid;
+	border-width: 1px;
+}
+
+#minigames #haunted {
+	float: left;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+	margin-top: 35px;
+	margin-bottom: 25px;
+	clear: left;
+}
+
+#minigames #haunted img {
+	box-shadow: 3px 3px 3px rgb(200, 200, 200);
+	border-style: solid;
+	border-width: 1px;
+}
+
+#minigames #pirates {
+	float: right;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+	margin-top: 35px;
+	margin-bottom: 25px;
+	clear: right;
+}
+
+#minigames #pirates img {
+	box-shadow: 3px 3px 3px rgb(200, 200, 200);
+	border-style: solid;
+	border-width: 1px;
+}
+
+/* Item Styles */
+
+#items {
+	text-align: left;
+	width: 100%;
+}
+
+#items h2 {
+	text-align: center;
+}
+
+#items h3 {
+
+	text-align: left;
+	padding-left: 2.5%;
+	clear: left;
+}
+
+#items img {
+	float: left;
+	display: block;
+	padding-left: 25px;
+	padding-bottom: 10px;
+
+}
+
+#items p {
+	font-size: 13px;
+	text-align: center justify;
+	float: left;
+	width: 80%;
+	
+	display: inline;
+	
+}
+
+/* Pin Styles */
+
+#items #pins {
+	float: left;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+}
+
+/* Magic Styles */
+
+#items #magic {
+	float: right;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+}
+
+/* Clothes Styles */
+
+#items #clothes {
+	float: left;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+/* Furniture Styles */
+
+#items #furniture {
+	float: right;
+	width: 50%;
+	background-color: rgba(220, 220, 220, 0.25);
+	padding-bottom: 1em;
+	border: 1px solid;
+	border-color: rgba(210, 210, 210, 0.25);
+	box-shadow: 0px 3px 0px rgb(215, 215, 215);
+	margin: auto;
+	max-width: 48%;
+	margin-top: 35px;
+	margin-bottom: 25px;
+	clear: right;
+}
+
+/* Photos Styles */
+
+section.photos {
+	text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+	clear: right;
+	width: 100%;
+	padding-top: 25px;
+} 
+
+footer a {
+	color: gray;
+	text-align: center;
+	font-size: 8px;
+	padding-right: 0.5em;
+	text-decoration: none;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer address {
+	background-color: rgb(46, 92, 184);
+	box-shadow: 0px -2px 1px rgb(40, 84, 164);
+	color: rgb(255, 255, 255);
+	font-size: 80%;
+	font-style: normal;
+	padding-top: 6px;
+	padding-bottom: 12px;
+	text-align: center;
+}
