@@ -462,4 +462,5 @@ footer address {
 	padding-top: 6px;
 	padding-bottom: 12px;
 	text-align: center;
+	clear: left;
 }
